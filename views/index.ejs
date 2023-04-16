@@ -23,7 +23,7 @@
       <% for (let entry of entries) { %>
         <li>
           <strong><%= entry.name %>:</strong> <%= entry.message %>
-          <small><%= entry.date.toLocaleString() %></small>
+          <small><%= entry.date.toLocaleString("fi-FI") %></small>
         </li>
       <% } %>
     </ul>
